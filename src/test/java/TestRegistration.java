@@ -1,3 +1,4 @@
+import org.kohsuke.rngom.parse.host.Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,16 +11,13 @@ import selenium.DriverManager;
 import selenium.DriverManagerFactory;
 import selenium.DriverType;
 
-public class TestRegistration {
+public class TestRegistration extends BaseTest {
 
-    DriverManager driverManager;
-    WebDriver driver;
+    //DriverManager driverManager;
+    //WebDriver driver;
 
     @Test
     public void navigateToGmailTests() throws InterruptedException {
-
-        driverManager = DriverManagerFactory.getDriverManager(DriverType.CHROME);
-        driver = driverManager.getWebDriver();
         driver.get("https://timesofindia.indiatimes.com/");
         Thread.sleep(10000);
         TOISignUpPage page = new TOISignUpPage(driver);

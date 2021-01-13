@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bd052f-2fdd-4798-97e3-7338822dde57" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/geckodriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium/ChromeDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium/ChromeDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/selenium/FirefoxDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/selenium/FirefoxDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/credentials/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/credentials/StoredCredential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/credentials/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/credentials/StoredCredential" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/selenium/ChromeDriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium/ChromeDriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRegistration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,29 +224,29 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="351" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1610518386449" />
-    <state width="1398" height="172" key="GridCell.Tab.0.bottom" timestamp="1610537807961">
+    <state width="1398" height="172" key="GridCell.Tab.0.bottom" timestamp="1610538608186">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1610392701209" />
-    <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1610537807961" />
+    <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1610538608186" />
     <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1610534803023" />
-    <state width="1398" height="172" key="GridCell.Tab.0.center" timestamp="1610537807959">
+    <state width="1398" height="172" key="GridCell.Tab.0.center" timestamp="1610538608184">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1610392701206" />
-    <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1610537807959" />
+    <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1610538608184" />
     <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1610534803022" />
-    <state width="1398" height="172" key="GridCell.Tab.0.left" timestamp="1610537807958">
+    <state width="1398" height="172" key="GridCell.Tab.0.left" timestamp="1610538608183">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1610392701205" />
-    <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1610537807958" />
+    <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1610538608183" />
     <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1610534803021" />
-    <state width="1398" height="172" key="GridCell.Tab.0.right" timestamp="1610537807960">
+    <state width="1398" height="172" key="GridCell.Tab.0.right" timestamp="1610538608185">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1610392701208" />
-    <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1610537807960" />
+    <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1610538608185" />
     <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1610534803023" />
     <state width="1398" height="216" key="GridCell.Tab.1.bottom" timestamp="1610534803024">
       <screen x="0" y="23" width="1440" height="828" />
