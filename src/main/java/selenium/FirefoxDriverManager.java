@@ -14,8 +14,10 @@ public class FirefoxDriverManager extends DriverManager {
 
     @Override
     protected void createWebDriver() {
-        System.setProperty("webdriver.gecko.driver", "/Users/arvindkumar/Downloads/geckodriver");
-        //System.setProperty("webdriver.firefox.bin","/Applications/Firefox.app/Contents/MacOS/firefox-bin");
+        String path = "src/main/resources/drivers/geckodriver";
+        File file = new File(path);
+        String absolutePath = file.getAbsolutePath();
+        System.setProperty("webdriver.gecko.driver", absolutePath);
 
         DesiredCapabilities cap = DesiredCapabilities.firefox();
         cap.setCapability("marionette", true);
