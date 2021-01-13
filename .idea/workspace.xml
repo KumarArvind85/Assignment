@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56bd052f-2fdd-4798-97e3-7338822dde57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gmailAPI/GMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GmailInboxPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/GmailLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/TOISignUpPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/ChromeDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/DriverManagerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/DriverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/FirefoxDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials/StoredCredential" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/credentials/StoredCredential" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/credentials/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gmailAPI/GMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/BasePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/GmailInboxPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/GmailLoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/TOISignUpPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selenium/ChromeDriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selenium/DriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selenium/DriverManagerFactory$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selenium/DriverManagerFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selenium/DriverType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selenium/FirefoxDriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestRegistration.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mscF0XsgHwQoqbDCTnygcJJPVB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/credentials" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/credentials" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GMail">
+    <configuration name="GMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gmailAPI.GMail" />
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmailAPI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistration" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRegistration.navigateToGmailTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRegistration" />
+      <option name="METHOD_NAME" value="navigateToGmailTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TestRegistration" />
+      <item itemvalue="TestNG.TestRegistration (1)" />
+      <item itemvalue="Application.GMail" />
+      <item itemvalue="TestNG.TestRegistration.navigateToGmailTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GMail" />
+        <item itemvalue="TestNG.TestRegistration" />
+        <item itemvalue="TestNG.TestRegistration.navigateToGmailTests" />
+        <item itemvalue="TestNG.TestRegistration (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56bd052f-2fdd-4798-97e3-7338822dde57" name="Default Changelist" comment="" />
+      <created>1610285631090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610285631090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="101" width="1021" height="666" key="#Project_Structure" timestamp="1610378865878">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="320" y="101" width="1021" height="666" key="#Project_Structure/0.23.1440.825@0.23.1440.825" timestamp="1610378865878" />
+    <state x="184" y="98" width="1071" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610379308162">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="184" y="98" width="1071" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.825@0.23.1440.825" timestamp="1610379308162" />
+    <state x="424" y="244" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610450889096">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="424" y="244" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.827@0.23.1440.827" timestamp="1610450889096" />
+    <state x="507" y="148" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1610379266429">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="507" y="148" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.825@0.23.1440.825" timestamp="1610379266429" />
+    <state width="1398" height="172" key="GridCell.Tab.0.bottom" timestamp="1610515250266">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1610392701209" />
+    <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1610515250266" />
+    <state width="1398" height="227" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1610482172993" />
+    <state width="1398" height="172" key="GridCell.Tab.0.center" timestamp="1610515250265">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1610392701206" />
+    <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1610515250265" />
+    <state width="1398" height="227" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1610482172992" />
+    <state width="1398" height="172" key="GridCell.Tab.0.left" timestamp="1610515250264">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1610392701205" />
+    <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1610515250264" />
+    <state width="1398" height="227" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1610482172991" />
+    <state width="1398" height="172" key="GridCell.Tab.0.right" timestamp="1610515250265">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="145" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1610392701208" />
+    <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1610515250265" />
+    <state width="1398" height="227" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1610482172992" />
+    <state width="1398" height="216" key="GridCell.Tab.1.bottom" timestamp="1610484438558">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1610484438558" />
+    <state width="1398" height="227" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1610482118996" />
+    <state width="1398" height="216" key="GridCell.Tab.1.center" timestamp="1610484438557">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1610484438557" />
+    <state width="1398" height="227" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1610482118995" />
+    <state width="1398" height="216" key="GridCell.Tab.1.left" timestamp="1610484438556">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1610484438556" />
+    <state width="1398" height="227" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1610482118994" />
+    <state width="1398" height="216" key="GridCell.Tab.1.right" timestamp="1610484438557">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="216" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1610484438557" />
+    <state width="1398" height="227" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1610482118995" />
+  </component>
+</project>
