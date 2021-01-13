@@ -4,6 +4,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
+import pages.RegistrationTogglePage;
 import pages.TOISignUpPage;
 import selenium.DriverManager;
 import selenium.DriverManagerFactory;
@@ -22,11 +23,11 @@ public class TestRegistration {
         driver.get("https://timesofindia.indiatimes.com/");
         Thread.sleep(10000);
         TOISignUpPage page = new TOISignUpPage(driver);
-        page.clickSignIn();
-        page.provideEmailForSignUp("arvind.at22@gmail.com");
-        page.clickContinue();
-        page.generateOtp();
-        page.validateOtp();
+        RegistrationTogglePage rp = page.clickSignIn();
+        rp.provideEmailForSignUp("arvind.at22@gmail.com");
+        rp.clickContinue();
+        rp.generateOtp();
+        rp.validateOtp();
 
     }
 }
