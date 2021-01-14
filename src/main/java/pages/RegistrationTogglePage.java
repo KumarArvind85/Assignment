@@ -29,7 +29,7 @@ public class RegistrationTogglePage extends TOISignUpPage{
         wait.until(ExpectedConditions.visibilityOf(element.findElement(By.cssSelector("input.submit-btn"))));
         //Thread.sleep(30000);
         element.findElement(By.cssSelector("input.submit-btn")).click();
-        Thread.sleep(50000);
+        Thread.sleep(30000);
     }
 
     public void generateOtp(){
@@ -39,7 +39,7 @@ public class RegistrationTogglePage extends TOISignUpPage{
 
     public void validateOtp(){
         HashMap<String,String> map = new HashMap<>();
-        map = GMail.getGmailData("Code is 402543 for Times Internet Login Confirmation.");
+        map = GMail.getGmailData("Code is ");
         String sub = map.get("subject");
         System.out.println(map.get("subject"));
         System.out.println(map.get("body"));

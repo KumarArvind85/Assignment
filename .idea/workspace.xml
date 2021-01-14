@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bd052f-2fdd-4798-97e3-7338822dde57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/testngSuites/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/RegistrationTogglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/RegistrationTogglePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TOISignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TOISignUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/credentials/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/credentials/StoredCredential" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/credentials/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/credentials/StoredCredential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/TOISignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/TOISignUpPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRegistration.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,29 +36,33 @@
     </option>
   </component>
   <component name="ProjectId" id="1mscF0XsgHwQoqbDCTnygcJJPVB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/drivers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/testngSuites" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/testngSuites" />
       <recent name="$PROJECT_DIR$/src/main/resources/drivers" />
       <recent name="$PROJECT_DIR$/src/main/resources/credentials" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRegistration">
+  <component name="RunManager" selected="TestNG./Users/arvindkumar/Downloads/Assignment/src/test/testngSuites/testng.xml">
     <configuration name="GMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gmailAPI.GMail" />
       <module name="Assignment" />
@@ -64,17 +72,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRegistration (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRegistration" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,6 +117,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/arvindkumar/Downloads/Assignment/src/test/testngSuites/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testngSuites/testng.xml" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/arvindkumar/Downloads/Assignment/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="SUITE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -141,15 +176,17 @@
     <list>
       <item itemvalue="Application.GMail" />
       <item itemvalue="TestNG.TestRegistration" />
-      <item itemvalue="TestNG.TestRegistration (1)" />
       <item itemvalue="TestNG.TestRegistration.navigateToGmailTests" />
+      <item itemvalue="TestNG./Users/arvindkumar/Downloads/Assignment/testng.xml" />
+      <item itemvalue="TestNG./Users/arvindkumar/Downloads/Assignment/src/test/testngSuites/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/arvindkumar/Downloads/Assignment/src/test/testngSuites/testng.xml" />
         <item itemvalue="TestNG.TestRegistration" />
+        <item itemvalue="TestNG./Users/arvindkumar/Downloads/Assignment/testng.xml" />
         <item itemvalue="Application.GMail" />
         <item itemvalue="TestNG.TestRegistration.navigateToGmailTests" />
-        <item itemvalue="TestNG.TestRegistration (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +237,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
@@ -224,29 +262,29 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="351" y="39" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1610518386449" />
-    <state width="1398" height="172" key="GridCell.Tab.0.bottom" timestamp="1610538608186">
+    <state width="1398" height="172" key="GridCell.Tab.0.bottom" timestamp="1610612490094">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1610392701209" />
-    <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1610538608186" />
+    <state width="1398" height="172" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1610612490094" />
     <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1610534803023" />
-    <state width="1398" height="172" key="GridCell.Tab.0.center" timestamp="1610538608184">
+    <state width="1398" height="172" key="GridCell.Tab.0.center" timestamp="1610612490089">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1610392701206" />
-    <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1610538608184" />
+    <state width="1398" height="172" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1610612490089" />
     <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1610534803022" />
-    <state width="1398" height="172" key="GridCell.Tab.0.left" timestamp="1610538608183">
+    <state width="1398" height="172" key="GridCell.Tab.0.left" timestamp="1610612490088">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1610392701205" />
-    <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1610538608183" />
+    <state width="1398" height="172" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1610612490088" />
     <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1610534803021" />
-    <state width="1398" height="172" key="GridCell.Tab.0.right" timestamp="1610538608185">
+    <state width="1398" height="172" key="GridCell.Tab.0.right" timestamp="1610612490090">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state width="1398" height="145" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1610392701208" />
-    <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1610538608185" />
+    <state width="1398" height="172" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1610612490090" />
     <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1610534803023" />
     <state width="1398" height="216" key="GridCell.Tab.1.bottom" timestamp="1610534803024">
       <screen x="0" y="23" width="1440" height="828" />
@@ -268,13 +306,14 @@
     </state>
     <state width="1398" height="216" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1610533483663" />
     <state width="1398" height="216" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1610534803024" />
-    <state x="229" y="73" key="SettingsEditor" timestamp="1610518609174">
+    <state x="229" y="73" key="SettingsEditor" timestamp="1610609103265">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="229" y="73" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1610518609174" />
-    <state x="376" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1610536756000">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="229" y="73" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1610609103265" />
+    <state x="376" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1610610617510">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
+    <state x="376" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1610610617510" />
     <state x="376" y="269" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1610536756000" />
   </component>
   <component name="XDebuggerManager">

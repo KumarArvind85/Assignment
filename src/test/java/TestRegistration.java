@@ -1,27 +1,18 @@
-import org.kohsuke.rngom.parse.host.Base;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import pages.RegistrationTogglePage;
 import pages.TOISignUpPage;
-import selenium.DriverManager;
-import selenium.DriverManagerFactory;
-import selenium.DriverType;
+
+import java.util.concurrent.TimeUnit;
 
 public class TestRegistration extends BaseTest {
-
-    //DriverManager driverManager;
-    //WebDriver driver;
 
     @Test
     public void navigateToGmailTests() throws InterruptedException {
         driver.get("https://timesofindia.indiatimes.com/");
-        Thread.sleep(10000);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         TOISignUpPage page = new TOISignUpPage(driver);
         RegistrationTogglePage rp = page.clickSignIn();
+        //rp.provideEmailForSignUp(Utils.getProperty("email")); -- Use it only to read email supplied from build
         rp.provideEmailForSignUp("arvind.at22@gmail.com");
         rp.clickContinue();
         rp.generateOtp();

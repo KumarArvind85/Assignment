@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AssignmentTests" verbose="1">
+    <test name="ESIWebServiceTests">
+        <classes>
+            <class name="src/test/java/TestRegistration" />
+        </classes>
+    </test>
+</suite>
